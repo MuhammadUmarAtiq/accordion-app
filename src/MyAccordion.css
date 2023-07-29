@@ -28,7 +28,7 @@
   h1 {
     text-align: center;
     text-transform: capitalize;
-    font-size: 32px;
+    font-size: 2.7rem;
     letter-spacing: 5;
     word-spacing: 5px;
     margin-bottom: 50px;
@@ -51,7 +51,7 @@
     word-spacing: 1px;
     letter-spacing: 1px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.3rem;
   }
   .main-heading p {
     cursor: pointer;
@@ -64,7 +64,7 @@
   .answers {
     padding: 30px 20px 40px 20px;
     font-family: "Raleway", sans-serif;
-    font-size: 15px;
+    font-size: 1.1rem;
     word-spacing: 2px;
     font-weight: 400;
     line-height: 1.7;
@@ -72,3 +72,13 @@
     color: rgb(40, 37, 53);
   }
 
+  
+  @media (max-width:767px ){
+    html{
+      font-size: 90%;
+
+    }
+    .main-div{
+      width: 80vw;
+    }
+  }
